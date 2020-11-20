@@ -18,6 +18,7 @@ import {
 } from 'react-native';
 import {Movie} from './Movies';
 import {MovieList} from './Movies';
+import {TheList} from './Boats';
 
 const App: () => React$Node = () => {
   return (
@@ -26,6 +27,7 @@ const App: () => React$Node = () => {
         <Text>Lesson 05 Exercises</Text>
 
         <MovieList />
+        <TheList />
       </ScrollView>
     </SafeAreaView>
   );
